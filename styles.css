@@ -1,0 +1,49 @@
+body {
+    background-color: green;
+}
+
+.card {
+    margin: 1px;
+    width: 80px;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+
+.iconoArriba {
+    text-align: left;
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.number {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.iconoAbajo {
+    font-size: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    text-align: left;
+    transform: rotate(180deg);
+   
+}
+
+#container {
+    display: flex;
+}
+
+#ordenado {
+    display: flex;
+  
+}
+
+.contenedor {
+   display: flex;
+   flex-direction: column;
+} 
