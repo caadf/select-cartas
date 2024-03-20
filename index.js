@@ -68,10 +68,10 @@ function generarCartas() {
 
 }
 
+/* 
+/* draw.addEventListener("click", generadorCartas); */
 
-/* draw.addEventListener("click", generadorCartas);
-
-cartas = generadorCartas(); */
+cartas = generarCartas(); 
 
 function ordenarCartas() {
     
@@ -94,6 +94,8 @@ function ordenarCartas() {
             cartas[min].nUmero = temp
 
         }
+
+        
         contenedor = document.createElement("div");
         contenedor.style.display = "flex";
         
