@@ -45,7 +45,7 @@ function generarCartas() {
         iconoArriba.innerHTML = icono;
         let contenidoNumero = document.createElement("div")
         let elNumero = cartaNueva.appendChild(contenidoNumero).classList.add("number");
-        contenidoNumero.innerHTML = changeValiu(numero);
+        contenidoNumero.innerHTML = changeValue(numero);
         let iconoAbajo = document.createElement("div")
         let iconoDere = cartaNueva.appendChild(iconoAbajo).classList.add("iconoAbajo");
         iconoAbajo.innerHTML = icono;
@@ -68,8 +68,7 @@ function generarCartas() {
 
 }
 
-/* 
-/* draw.addEventListener("click", generadorCartas); */
+
 
 cartas = generarCartas(); 
 
@@ -97,7 +96,7 @@ function ordenarCartas() {
 
         
         contenedor = document.createElement("div");
-        contenedor.style.display = "flex";
+        contenedor.style.display = "flex" 
         
         
         for (x=0; x < len; x++){
@@ -111,7 +110,7 @@ function ordenarCartas() {
             iconoArriba.innerHTML = cartas[x].iCono;
             let contenidoNumero = document.createElement("div")
             let elNumero = cartaNueva.appendChild(contenidoNumero).classList.add("number");
-            contenidoNumero.innerHTML = changeValiu(cartas[x].nUmero);
+            contenidoNumero.innerHTML = changeValue(cartas[x].nUmero);
             let iconoAbajo = document.createElement("div")
             let iconoDere = cartaNueva.appendChild(iconoAbajo).classList.add("iconoAbajo");
             iconoAbajo.innerHTML = cartas[x].iCono;
@@ -135,7 +134,7 @@ function ordenarCartas() {
 };
 
 
-function changeValiu(value) {
+function changeValue(value) {
     switch (value) {
         case 1: return "A";
         case 11: return "J";

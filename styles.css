@@ -39,11 +39,12 @@ body {
 }
 
 #ordenado {
+    flex-direction: column;
     display: flex;
+
   
 }
 
-.contenedor {
+/* .contenedor {
    display: flex;
-   flex-direction: column;
-} 
+}  */
