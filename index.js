@@ -55,12 +55,12 @@ function generarCartas() {
             iconoAbajo.style.color = "red";
         }
 
-        let cartaValor = {
+        let cartaConseguida = {
             iCono: icono,
             nUmero: numero,
         };
-        cartas.push(cartaValor);
-        console.log(cartaValor);
+        cartas.push(cartaConseguida);
+        console.log(cartaConseguida);
     }
 
     console.log(cartas);
