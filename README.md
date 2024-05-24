@@ -1,4 +1,4 @@
-### Ordenando Cartas método Select
+### Ordenando Cartas método Select Sort
 Crear cartas y permitir que se genere una lista de cartas al azar. Posteriormente utilizar el método de ordenamiento Select Sort. Se usa las tecnologías HTML, CSS, Javascript.
 
  #### Fundamentos :
